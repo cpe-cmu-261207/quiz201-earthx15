@@ -12,7 +12,7 @@ const co = document.querySelector('#text')
 
 btn_toggle.onclick = () => {
   if(c===0){
-    var t=630610719+length.value
+    var t=parseInt(length.value)+630610719
     author.innerHTML = t
     c++
   }else{
